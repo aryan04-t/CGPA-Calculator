@@ -48,7 +48,7 @@ public class CGPACalculator {
                 gradePoints =5;
                 break;
             default:
-                gradePoints =0;
+                gradePoints =0; //default case
                 break;
         }
         return gradePoints;
